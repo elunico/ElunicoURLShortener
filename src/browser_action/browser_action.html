@@ -1,0 +1,28 @@
+<!doctype html>
+<style type="text/css">
+  #mainPopup {
+    padding: 10px;
+    height: 200px;
+    width: 400px;
+    font-family: Helvetica, Ubuntu, Arial, sans-serif;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+</style>
+
+<div id="mainPopup">
+  <h1>Short URL</h1>
+  <p> Current URL:
+    <span id="normal"></span>
+  </p>
+  <p> Short URL
+    <span id="short"></span>
+  </p>
+  <input type="button" value="Copy" id="copyButton" />
+  <p id="status"></p>
+  <script src="browser_action.js">
+  </script>
+
+</div>
